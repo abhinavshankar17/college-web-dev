@@ -1,0 +1,20 @@
+@media screen and (max-width: 356px) {
+    .ppt{
+        float: left;
+        /* padding-top: -100rem; */
+        padding: 2rem; 
+        height: 18rem;
+        width: 31rem; 
+        margin-top: 4rem ;
+        margin-left:2rem ;
+        /* margin:  0rem 0rem ; */
+        /* display: block; */
+    }
+    .body1{
+        display:block;
+        height: 80rem;
+        /* justify-content: left;
+        align-items: left;
+        float: left; */
+    }    
+}

@@ -1,0 +1,111 @@
+@media screen and (max-width: 900px) {
+    .taskbar{
+        justify-content: center;
+
+        #insta{
+            padding-left: 0%;
+
+        }
+        #twitter{
+            padding-left: 23%;
+        }
+        #wp{
+            padding-left: 30%;
+        }
+    }
+    #text{
+        display: none;
+    }
+    
+    #main{
+        /* display: flex; */
+        background-color: lightblue;
+        height: 29.5rem;
+        width: 1402px;
+    }
+
+    /* .button{
+        flex-wrap: wrap;
+    } */
+}
+
+@media screen and (max-width: 320px){
+    a.but1{ display: block; /* word-wrap: break-word; */ } a.but2{ display: block; /* word-wrap: break-word; */ } a.but3{ display: block; /* word-wrap: break-word; */ } a.but4{ padding-top: 0rem; display: block; /* word-wrap: break-word; */ }
+    /* .captions{
+        flex-wrap: wrap;
+    } */
+    .taskbar{
+        justify-content: left;
+        #insta{
+            padding-left: 0%;
+
+        }
+        #twitter{
+            padding-left: 23%;
+        }
+        #wp{
+            padding-left: 30%;
+        }
+    }
+    .ppt{
+        float: left;
+        /* padding-top: -100rem; */
+        padding: 2rem; 
+        height: 18rem;
+        width: 31rem; 
+        margin-top: 4rem ;
+        margin-left:2rem ;
+        /* margin:  0rem 0rem ; */
+        /* display: block; */
+    }
+    .body{
+        display:block;
+        height: 80rem;
+        /* justify-content: left;
+        align-items: left;
+        float: left; */
+    }    
+    /* #input{
+        flex-wrap: wrap;
+        display: block;
+    } */
+
+    .threebox{
+        display: block;
+        height: 50rem;
+    }
+    .onebox{
+        margin-left: -6rem;
+        /* margin-top: 2rem; */
+    }
+
+    .secondbox{
+        margin-left: -18rem;
+        margin-top: 2rem;
+    }
+    .thirdbox{
+        margin-left: -23rem;
+        margin-top: 2rem;
+    }
+
+    .imgSlider{
+    /* align-items: center; */
+    /* float: left; */
+    /* justify-content: left; */
+    margin-left: -14rem;
+
+    padding-left: 0rem;
+    width: 50rem;
+    height: 35rem;
+    background-image: url("e1.jpg");
+    background-size: 100% 100%;
+    box-shadow: 10px 5px 5px lightblue;
+    animation: changeImage 5s linear  infinite ;
+    }
+
+    .end{
+        display: block;
+        height: 20rem;
+    }
+
+}
