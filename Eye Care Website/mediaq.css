@@ -19,7 +19,9 @@
     
     #main{
         /* display: flex; */
-        background-color: lightblue;
+        /* background: rgb(0,255,222);
+background: linear-gradient(90deg, rgba(0,255,222,1) 0%, rgba(0,224,255,1) 49%, rgba(0,255,226,1) 100%, rgba(9,117,121,1) 100%); */
+        background-color: white;
         height: 29.5rem;
         width: 1402px;
     }
