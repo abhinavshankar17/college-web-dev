@@ -1,1 +1,1 @@
-All the projects given as per discord community
+Small Projects I Made During My College 
